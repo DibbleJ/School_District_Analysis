@@ -28,13 +28,13 @@ After: ![Best-After](https://user-images.githubusercontent.com/40553064/11924407
 
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
-    - There is no change to any outcomes to any of the other grades or schools. This is expected as only the THS 9th graders scores were replaced with NaN. 
+    - There is no change to any outcomes of the other grades or schools. This is expected as only the THS 9th graders scores were replaced with NaN. There is also no change to the scores by school spending, size, or type.
     
-  Before: Math: ![Average-math-before](https://user-images.githubusercontent.com/40553064/119244133-fe0dac80-bb32-11eb-8d40-7ae8bb070fba.PNG) 
-  Reading:![Average-reading-before](https://user-images.githubusercontent.com/40553064/119244134-00700680-bb33-11eb-855c-2c11ea7d4a45.PNG)
+  Before Math: ![Average-math-before](https://user-images.githubusercontent.com/40553064/119244133-fe0dac80-bb32-11eb-8d40-7ae8bb070fba.PNG) 
+  Before Reading:![Average-reading-before](https://user-images.githubusercontent.com/40553064/119244134-00700680-bb33-11eb-855c-2c11ea7d4a45.PNG)
 
-  After: Math: ![Average-math-after](https://user-images.githubusercontent.com/40553064/119244156-301f0e80-bb33-11eb-8fa3-b47dc5c265a8.PNG)
-  Reading: ![Average-reading-after](https://user-images.githubusercontent.com/40553064/119244159-34e3c280-bb33-11eb-8e94-3b620bd4bc21.PNG)
+  After Math: ![Average-math-after](https://user-images.githubusercontent.com/40553064/119244156-301f0e80-bb33-11eb-8fa3-b47dc5c265a8.PNG)
+  After Reading: ![Average-reading-after](https://user-images.githubusercontent.com/40553064/119244159-34e3c280-bb33-11eb-8e94-3b620bd4bc21.PNG)
   
   - Scores by school spending
    
@@ -55,4 +55,8 @@ After: ![Best-After](https://user-images.githubusercontent.com/40553064/11924407
   After: ![Performance-Type-After](https://user-images.githubusercontent.com/40553064/119244219-dcf98b80-bb33-11eb-8b05-7da2d0785621.PNG)
   
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Overall, there is almost no difference to the outcomes after changing the questionable value to NaN. Here is a short list of some of the changes :
+- The primary difference that was the cause of the other changes was the replacement of the THS 9th grader scores with NAN. i.e. on the math and reading scores by grade and school, THS 9th graders have no scores.
+- The THS % overall passing has decreased by 0.31%.
+- The district Average Math score increasesd from 78.9 to 79.0
+- The total number of students in the district count is reduced from 39,170 to 38,709. This is the size of the THS 9th grade class (461 students).
